@@ -6,7 +6,8 @@
     <a href="/contact">Contact</a>
 </nav>
 
-<h1>GarageVR</h1>
+<h1>Privacy Policy</h1>
+<p>Mansion Mystery</p>
 
 <style>
     :global(body) {

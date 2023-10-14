@@ -6,7 +6,7 @@
     <a href="/contact">Contact</a>
 </nav>
 
-<h1>GarageVR</h1>
+<h1>Contact</h1>
 
 <style>
     :global(body) {
