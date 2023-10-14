@@ -1,0 +1,10 @@
+{
+    "mansionMystery": {
+        "name": "Mansion Mystery",
+        "imageFilePath": "mansionMystery.png"
+    },
+    "grillOnWheels": {
+        "name": "Grill on Wheels",
+        "imageFilePath": "grillOnWheels.png"
+    }
+}

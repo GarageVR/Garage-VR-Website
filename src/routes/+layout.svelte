@@ -1,7 +1,5 @@
 <nav>
     <a href="/">Home</a>
-    <a href="/mansionMystery">Mansion Mystery</a>
-    <a href="/grillOnWheels">Grill on Wheels</a>
     <a href="/about">About</a>
     <a href="/contact">Contact</a>
 </nav>
@@ -22,13 +20,17 @@
         display: flex;
         justify-content: flex-end; /* Align to the right */
         align-items: center; /* Center items vertically */
-        height: 4rem; /* Set a fixed height for the navbar */
+        height: 5rem; /* Set a fixed height for the navbar */
         padding: 0 2rem; /* Adjust padding */
+        background-color: rgb(106, 106, 106);
+        border-radius: 30px;
     }
 
     :global(nav a) {
         margin-left: 1.5rem;
         text-decoration: none;
+        padding: 10px;
+        background-color: rgba(255, 0, 0, .1)
     }
 
     :global(nav a:hover) {
