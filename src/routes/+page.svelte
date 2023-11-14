@@ -5,6 +5,20 @@
 
 <title>GarageVR: Home Page</title>
 
+<div class="game-containers">
+    {#each Object.keys(data.gamesData) as gameKey}
+        <div class="game-container">
+            <a href={`/${gameKey}`}>
+                <img
+                    src={data.gamesData[gameKey].imageFilePath}
+                    alt={`Cover image of ${data.gamesData[gameKey].name}`}
+                />
+                <p class="game-titles">{data.gamesData[gameKey].name}</p>
+            </a>
+        </div>
+    {/each}
+</div>
+
 <style>
     .game-containers {
         display: flex;
@@ -27,7 +41,7 @@
         max-width: 30rem;
     }
 
-    .game-titles{
+    .game-titles {
         transition: font-size 0.3s ease;
     }
 
@@ -46,10 +60,11 @@
     }
 
     img:hover {
-    transform: scale(1.1);
+        transform: scale(1.1);
     }
 
-    .game-container, p {
+    .game-container,
+    p {
         margin-top: 1.5rem;
         margin-bottom: 0;
         font-weight: bold;
@@ -61,14 +76,3 @@
         color: inherit;
     }
 </style>
-
-<div class="game-containers">
-    {#each Object.keys(data.gamesData) as gameKey}
-        <div class="game-container">
-            <a href={`/${gameKey}`}>
-                <img src={data.gamesData[gameKey].imageFilePath} alt={`Cover image of ${data.gamesData[gameKey].name}`}>
-                <p class="game-titles">{data.gamesData[gameKey].name}</p>
-            </a>
-        </div>
-    {/each}
-</div>

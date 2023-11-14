@@ -1,6 +1,6 @@
 <nav>
     <a href="/">
-        <img class="navbar-logo" src="garagevrLogo.png" alt="company logo">
+        <img class="navbar-logo" src="garagevrLogo.png" alt="company logo" />
     </a>
     <div>
         <a class="navbar-link" href="/">HOME</a>
@@ -9,12 +9,14 @@
     </div>
 </nav>
 
+<slot />
+
 <style>
     :global(body) {
         margin: 0;
         padding: 0;
     }
-    
+
     :global(html) {
         font-size: 1rem;
         background-color: rgb(220, 220, 220);
@@ -22,7 +24,7 @@
 
     :global(*) {
         color: rgb(28, 28, 28);
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
         font-size: 1.2rem;
     }
 
@@ -56,7 +58,7 @@
     }
 
     :global(.navbar-link:hover) {
-        background-color:  rgb(70, 70, 70);
+        background-color: rgb(70, 70, 70);
     }
 
     :global(.navbar-logo) {
@@ -66,7 +68,7 @@
 
     @media (max-width: 768px) {
         :global(html) {
-        font-size: 16px; /* Adjust font size for smaller screens */
+            font-size: 16px; /* Adjust font size for smaller screens */
         }
 
         :global(nav) {
@@ -84,11 +86,9 @@
         }
 
         :global(.navbar-link) {
-        margin-left: 0.5rem;
-        padding: 0.2rem;
-        font-size: 1.2rem;
-    }
+            margin-left: 0.5rem;
+            padding: 0.2rem;
+            font-size: 1.2rem;
+        }
     }
 </style>
-
-<slot />

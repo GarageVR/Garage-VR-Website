@@ -7,22 +7,22 @@
 
     <div class="contact-links">
         <a href="mailto:hey@garagevr.co">
-            <img src="email.png" alt="Email icon">
+            <img src="email.png" alt="Email icon" />
         </a>
         <a href="https://discord.com/invite/AWJCPS5HpP">
-            <img src="discord.png" alt="Discord icon">
+            <img src="discord.png" alt="Discord icon" />
         </a>
         <a href="https://www.youtube.com/@garageVR">
-            <img src="youtube.png" alt="Youtube icon">
+            <img src="youtube.png" alt="Youtube icon" />
         </a>
         <a href="https://twitter.com/garagevrstudio">
-            <img src="twitter.png" alt="Twitter/X icon">
+            <img src="twitter.png" alt="Twitter/X icon" />
         </a>
         <a href="https://www.instagram.com/garagevrstudio/">
-            <img src="instagram.png" alt="Instagram icon">
+            <img src="instagram.png" alt="Instagram icon" />
         </a>
         <a href="https://www.tiktok.com/@garagevrstudios">
-            <img src="tiktok.png" alt="Tiktok icon">
+            <img src="tiktok.png" alt="Tiktok icon" />
         </a>
     </div>
 </div>
@@ -53,7 +53,7 @@
     }
 
     .contact-links a {
-        flex: 0 0 calc(33% - 1.5rem); 
+        flex: 0 0 calc(33% - 1.5rem);
         margin: 0 0.75rem;
         margin-top: 2rem;
     }
@@ -67,7 +67,14 @@
     }
 
     .contact-links img:hover {
-    transform: scale(1.2);
-    box-shadow: 0.8rem 0.8rem 0.8rem rgba(0, 0, 0, 0.5);
+        transform: scale(1.2);
+        box-shadow: 0.8rem 0.8rem 0.8rem rgba(0, 0, 0, 0.5);
     }
+
+    @media (min-width: 800px) {
+    /* Apply styles when the window width exceeds 800px */
+    .contact-links a {
+      max-width: 200px; /* Set the max-width as per your requirement */
+    }
+}
 </style>

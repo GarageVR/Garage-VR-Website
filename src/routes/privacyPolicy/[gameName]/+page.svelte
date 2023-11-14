@@ -7,9 +7,8 @@
 
 <h1>Privacy Policy</h1>
 <p>
-    {data.gameName} is a virtual reality (VR) escape-the-room puzzle game. This Privacy
-    Policy describes how we use, share, and protect information that we collect from
-    players of {data.gameName}.
+    {data.gameName} is a virtual reality (VR) game. This Privacy Policy describes
+    how we use, share, and protect information that we collect from players of {data.gameName}.
 </p>
 
 <p>
