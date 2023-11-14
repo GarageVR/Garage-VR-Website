@@ -14,8 +14,6 @@
         padding: 1rem;
         margin: 1rem 3rem;
         box-sizing: border-box;
-        /* background-color: rgb(28, 28, 28); */
-        border: .5rem solid rgb(28, 28, 28);
         border-radius: 1rem;
         overflow: hidden; /* Hide any overflowing content */
     }
@@ -30,21 +28,26 @@
         max-width: 30rem;
     }
 
-    .game-container:hover {
-        background-color: rgb(221, 221, 221)
+    .game-titles{
+        transition: font-size 0.3s ease;
+    }
+
+    img:hover + .game-titles {
+        font-size: 2rem;
+        text-shadow: 0.1rem 0.1rem 0.5rem rgba(69, 69, 69, 0.7);
     }
 
     img {
         width: 100%;
         height: auto;
         object-fit: cover;
-        border-radius: 8px;
+        border-radius: 2rem;
+        box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.5);
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     }
 
     img:hover {
     transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .game-container, p {
@@ -65,7 +68,7 @@
         <div class="game-container">
             <a href={`/${gameKey}`}>
                 <img src={data.gamesData[gameKey].imageFilePath} alt={`Cover image of ${data.gamesData[gameKey].name}`}>
-                <p>{data.gamesData[gameKey].name}</p>
+                <p class="game-titles">{data.gamesData[gameKey].name}</p>
             </a>
         </div>
     {/each}
