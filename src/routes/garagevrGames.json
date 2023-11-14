@@ -6,5 +6,9 @@
     "grillOnWheels": {
         "name": "Grill on Wheels",
         "imageFilePath": "grillOnWheels.png"
+    },
+    "beyondTheAbyss": {
+        "name": "Beyond The Abyss",
+        "imageFilePath": "beyondTheAbyss.png"
     }
 }

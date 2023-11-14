@@ -6,63 +6,44 @@
 <title>GarageVR: Home Page</title>
 
 <style>
-    h1 {
-        text-align: center;
-        font-size: 3rem;
-        color: #fff;
-        margin: 0;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    }
-
-    .title-container {
-        background-color: #333;
-        padding: 16px;
-        border-radius: 8px;
-        margin-bottom: 16px;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
     .game-containers {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 10%;
-        margin: 0;
+        gap: 16px;
+        padding: 16px;
+        margin-top: 60px;
+        box-sizing: border-box;
+        background-color: rgb(28, 28, 28);
         overflow: hidden; /* Hide any overflowing content */
     }
 
     .game-container {
         text-align: center;
-        background-color: #535353;
+        background-color: rgb(246, 246, 246);
         padding: 16px;
         border-radius: 8px;
         transition: background-color 0.3s;
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        flex: 1;
+        flex: 1 0 300px; /* Allow flexible width with a max width of 300px */
         max-width: 400px; /* Set a maximum width for the game containers */
     }
 
     .game-container:hover {
-        background-color: #555;
+        background-color: rgb(50, 0, 0)
     }
 
     img {
         width: 100%;
         height: auto;
-        object-fit: contain;
-        border-radius: 50%;
-        display: block;
+        object-fit: cover;
+        border-radius: 8px;
     }
 
-    p {
+    .game-container, p {
         margin-top: 8px;
-        color: #fff;
+        color: rgb(28, 28, 28);
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(69, 69, 69, 0.25);
     }
 
     a {
@@ -70,10 +51,6 @@
         color: inherit;
     }
 </style>
-
-<div class="title-container">
-    <h1>Published Games</h1>
-</div>
 
 <div class="game-containers">
     {#each Object.keys(data.gamesData) as gameKey}

@@ -1,40 +1,67 @@
 <nav>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/contact">Contact</a>
+    <img src="garagevrLogo.png" alt="company logo">
+    <div>
+        <a href="/">HOME</a>
+        <a href="/about">ABOUT</a>
+        <a href="/contact">CONTACT</a>
+    </div>
 </nav>
 
 <style>
+    :global(body) {
+        margin: 0;
+        padding: 0;
+    }
+    
     :global(html) {
-        font-size: 24px;
-        background-color: rgb(39, 39, 39);
+        font-size: 1rem;
+        background-color: rgb(246, 246, 246);
     }
 
     :global(*) {
-        color: rgb(255, 255, 255);
+        color: rgb(246, 246, 246);
         font-family: 'Poppins', sans-serif;
         font-size: 1.2rem;
     }
 
     :global(nav) {
         display: flex;
-        justify-content: flex-end; /* Align to the right */
-        align-items: center; /* Center items vertically */
-        height: 5rem; /* Set a fixed height for the navbar */
-        padding: 0 2rem; /* Adjust padding */
-        background-color: rgb(106, 106, 106);
-        border-radius: 30px;
+        justify-content: space-between;
+        align-items: center;
+        height: 5rem;
+        padding: 0 2rem;
+        background-color: rgb(28, 28, 28);
     }
 
     :global(nav a) {
-        margin-left: 1.5rem;
+        margin-left: 2rem;
         text-decoration: none;
-        padding: 10px;
-        background-color: rgba(255, 0, 0, .1)
+        padding: 0.65rem;
+        font-weight: bolder;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+        border-radius: 30px;
     }
 
     :global(nav a:hover) {
-        border-bottom: 2px solid white; /* Optional: Add an underline on hover */
+        background-color:  rgb(20, 20, 20);
+    }
+
+    :global(nav img) {
+        height: 70%;
+        width: auto;
+    }
+
+    @media (max-width: 768px) {
+        :global(html) {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+        :global(nav a) {
+            margin: 0 0.2rem;
+        }
+
+        :global(nav) {
+            padding: 0 0.5rem;
+        }
     }
 </style>
 
