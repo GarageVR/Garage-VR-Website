@@ -1,11 +1,11 @@
 {
-    "mansionMystery": {
-        "name": "Mansion Mystery",
-        "imageFilePath": "mansionMystery.png"
-    },
     "grillOnWheels": {
         "name": "Grill on Wheels",
         "imageFilePath": "grillOnWheels.png"
+    },
+    "mansionMystery": {
+        "name": "Mansion Mystery",
+        "imageFilePath": "mansionMystery.png"
     },
     "beyondTheAbyss": {
         "name": "Beyond The Abyss",

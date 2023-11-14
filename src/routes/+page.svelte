@@ -20,7 +20,6 @@
 
     .game-container {
         text-align: center;
-        background-color: rgb(246, 246, 246);
         padding: 1rem;
         border-radius: 1rem;
         transition: background-color 0.3s;
