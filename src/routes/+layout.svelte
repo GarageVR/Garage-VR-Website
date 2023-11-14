@@ -1,9 +1,11 @@
 <nav>
-    <img src="garagevrLogo.png" alt="company logo">
+    <a href="/">
+        <img class="navbar-logo" src="garagevrLogo.png" alt="company logo">
+    </a>
     <div>
-        <a href="/">HOME</a>
-        <a href="/about">ABOUT</a>
-        <a href="/contact">CONTACT</a>
+        <a class="navbar-link" href="/">HOME</a>
+        <a class="navbar-link" href="/about">ABOUT</a>
+        <a class="navbar-link" href="/contact">CONTACT</a>
     </div>
 </nav>
 
@@ -19,7 +21,7 @@
     }
 
     :global(*) {
-        color: rgb(246, 246, 246);
+        color: rgb(28, 28, 28);
         font-family: 'Poppins', sans-serif;
         font-size: 1.2rem;
     }
@@ -33,7 +35,8 @@
         background-color: rgb(28, 28, 28);
     }
 
-    :global(nav a) {
+    :global(.navbar-link) {
+        color: rgb(246, 246, 246);
         margin-left: 2rem;
         text-decoration: none;
         padding: 0.65rem;
@@ -42,12 +45,12 @@
         border-radius: 30px;
     }
 
-    :global(nav a:hover) {
+    :global(.nav:hover) {
         background-color:  rgb(20, 20, 20);
     }
 
-    :global(nav img) {
-        height: 70%;
+    :global(.navbar-logo) {
+        height: 3rem;
         width: auto;
     }
 

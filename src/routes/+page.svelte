@@ -50,9 +50,8 @@
     .game-container, p {
         margin-top: 1.5rem;
         margin-bottom: 0;
-        color: rgb(28, 28, 28);
         font-weight: bold;
-        text-shadow: 2px 2px 4px rgba(69, 69, 69, 0.25);
+        text-shadow: 0.1rem 0.1rem 0.2rem rgba(69, 69, 69, 0.25);
     }
 
     a {
