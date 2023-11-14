@@ -10,26 +10,28 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 16px;
-        padding: 16px;
-        margin-top: 60px;
+        gap: 1.5rem;
+        padding: 1rem;
+        margin: 1rem 3rem;
         box-sizing: border-box;
-        background-color: rgb(28, 28, 28);
+        /* background-color: rgb(28, 28, 28); */
+        border: .5rem solid rgb(28, 28, 28);
+        border-radius: 1rem;
         overflow: hidden; /* Hide any overflowing content */
     }
 
     .game-container {
         text-align: center;
         background-color: rgb(246, 246, 246);
-        padding: 16px;
-        border-radius: 8px;
+        padding: 1rem;
+        border-radius: 1rem;
         transition: background-color 0.3s;
-        flex: 1 0 300px; /* Allow flexible width with a max width of 300px */
-        max-width: 400px; /* Set a maximum width for the game containers */
+        flex: 1 0 300px;
+        max-width: 30rem;
     }
 
     .game-container:hover {
-        background-color: rgb(50, 0, 0)
+        background-color: rgb(221, 221, 221)
     }
 
     img {
@@ -37,10 +39,17 @@
         height: auto;
         object-fit: cover;
         border-radius: 8px;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .game-container, p {
-        margin-top: 8px;
+        margin-top: 1.5rem;
+        margin-bottom: 0;
         color: rgb(28, 28, 28);
         font-weight: bold;
         text-shadow: 2px 2px 4px rgba(69, 69, 69, 0.25);
