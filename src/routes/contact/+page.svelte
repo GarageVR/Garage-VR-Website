@@ -6,22 +6,22 @@
     <h2>Reach out to us!</h2>
 
     <div class="contact-links">
-        <a href="mailto:hey@garagevr.co">
+        <a href="mailto:hey@garagevr.co" target="_blank">
             <img src="email.png" alt="Email icon" />
         </a>
-        <a href="https://discord.com/invite/AWJCPS5HpP">
+        <a href="https://discord.com/invite/AWJCPS5HpP" target="_blank">
             <img src="discord.png" alt="Discord icon" />
         </a>
-        <a href="https://www.youtube.com/@garageVR">
+        <a href="https://www.youtube.com/@garageVR" target="_blank">
             <img src="youtube.png" alt="Youtube icon" />
         </a>
-        <a href="https://twitter.com/garagevrstudio">
+        <a href="https://twitter.com/garagevrstudio" target="_blank">
             <img src="twitter.png" alt="Twitter/X icon" />
         </a>
-        <a href="https://www.instagram.com/garagevrstudio/">
+        <a href="https://www.instagram.com/garagevrstudio/" target="_blank">
             <img src="instagram.png" alt="Instagram icon" />
         </a>
-        <a href="https://www.tiktok.com/@garagevrstudios">
+        <a href="https://www.tiktok.com/@garagevrstudios" target="_blank">
             <img src="tiktok.png" alt="Tiktok icon" />
         </a>
     </div>

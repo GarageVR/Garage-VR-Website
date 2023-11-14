@@ -2,16 +2,16 @@
 
 <img src="grillOnWheelsHeader.png" alt="Grill on Wheels logo" />
 <div class="contact-links">
-    <a href="/" target="_blank">
+    <a href="/gow_oculus" target="_blank">
         <img src="meta.png" alt="Meta icon" />
     </a>
-    <a href="/" target="_blank">
+    <a href="/gow_steam" target="_blank">
         <img src="steam.png" alt="Discord icon" />
     </a>
-    <a href="/" target="_blank">
+    <a href="/gow_sidequest" target="_blank">
         <img src="sidequest.png" alt="SideQuest icon" />
     </a>
-    <a href="/" target="_blank">
+    <a href="/gow_rift" target="_blank">
         <img src="rift.png" alt="Oculus icon" />
     </a>
 </div>
