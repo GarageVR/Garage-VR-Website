@@ -1,6 +1,6 @@
 <nav>
     <a href="/">
-        <img class="navbar-logo" src="garagevrLogo.png" alt="company logo" />
+        <img class="navbar-logo" src="/garagevrLogo.png" alt="company logo" />
     </a>
     <div>
         <a class="navbar-link" href="/">HOME</a>
