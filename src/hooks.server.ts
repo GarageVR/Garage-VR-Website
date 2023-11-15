@@ -12,6 +12,12 @@ const redirects = {
 	'/gow_steam': 'https://store.steampowered.com/app/2628680/Grill_on_Wheels/',
 	'/gow_rift': 'https://www.meta.com/experiences/pcvr/6663932167059911',
 	'/gow_sidequest': 'https://sidequestvr.com/app/25214/grill-on-wheels',
+	'/email' : 'mailto:hey@garagevr.co',
+	'/discord' : 'https://discord.com/invite/AWJCPS5HpP',
+	'/youtube' : 'https://www.youtube.com/@garageVR',
+	'/twitter' : 'https://twitter.com/garagevrstudio',
+	'/instagram' : 'https://www.instagram.com/garagevrstudio/',
+	'/tiktok' : 'https://www.tiktok.com/@garagevrstudios',
 };
 
 export const handle: Handle = async ({ event, resolve }) => {
