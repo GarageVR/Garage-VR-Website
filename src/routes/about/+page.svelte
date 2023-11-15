@@ -22,7 +22,7 @@
         Our journey started with a shared love for VR and a common goal: to
         redefine gaming experiences. In April 2023, we introduced our first
         creation, "Mansion Mystery," a proof of concept that showed our
-        commitment to pushing boundaries.Encouraged by the response, we swiftly
+        commitment to pushing boundaries. Encouraged by the response, we swiftly
         moved on to our next project. "Grill on Wheels," our second release in
         October 2023, has already captured the hearts of 10,000 players in its
         first month.
