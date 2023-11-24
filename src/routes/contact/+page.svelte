@@ -25,6 +25,15 @@
             <img src="tiktok.png" alt="Tiktok icon" />
         </a>
     </div>
+    <div class="iframe-container">
+        <iframe
+          title="Discord Widget"
+          src="https://discord.com/widget?id=1159211624851325048&theme=dark"
+          allowtransparency="true"
+          frameborder="0"
+          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+        ></iframe>
+      </div>
 </div>
 
 <style>
@@ -70,6 +79,23 @@
         transform: scale(1.2);
         box-shadow: 0.8rem 0.8rem 0.8rem rgba(0, 0, 0, 0.5);
     }
+
+    .iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 50%; /* Set to 50% of the viewport width */
+  margin: 4rem auto 2rem auto; /* Center the iframe */
+  padding-top: 75%; /* 4:3 aspect ratio for responsive iframe */
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
 
     @media (min-width: 800px) {
     /* Apply styles when the window width exceeds 800px */
